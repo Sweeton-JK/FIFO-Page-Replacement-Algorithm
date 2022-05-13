@@ -44,8 +44,6 @@ int main()
             if(reflist[i]==framelist[j])
             {
                 page_hit++;
-
-                printf("%d Hit ",j);
     
             }
             else
@@ -65,8 +63,6 @@ int main()
             page_fault++;
 
             k++;
-
-            printf("%d Fault ",i);
             
         }
     }
